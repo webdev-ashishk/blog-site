@@ -1,0 +1,12 @@
+body {
+  background-color: #e2e2e2;
+  color: white;
+}
+nav > NavLink {
+  color: white;
+}
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 870px;
+}

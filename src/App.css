@@ -1,0 +1,46 @@
+body {
+  color: white;
+}
+.home {
+  color: black;
+  font-size: 3rem;
+}
+.video {
+  object-fit: fill;
+}
+nav {
+  /* position: sticky; */
+  /* border: 5px solid red; */
+  overflow: hidden;
+  border: none;
+  /* background-color: rgb(30, 67, 76); */
+}
+
+nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav > ul > li {
+  font-size: 2rem;
+  list-style-type: none;
+  border: none;
+}
+nav > ul > li > a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+nav > ul > li > a:hover {
+  background-color: white;
+  color: blue;
+}
+.nav-active {
+  color: white;
+  background-color: blue;
+}
+.not-found {
+  color: red;
+  text-align: center;
+}
