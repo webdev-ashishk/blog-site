@@ -8,69 +8,48 @@ function Home() {
   return (
     <>
       <div className="home">
-        <h2>Welcome to Awesome place</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
-          sapiente deleniti sed nihil cum id magni neque odit architecto placeat
-          hic blanditiis doloribus, voluptas dicta veniam minima incidunt
-          ducimus nesciunt facere necessitatibus porro! Quam maiores quas itaque
-          suscipit velit voluptatem doloremque impedit, labore animi mollitia
-          officia deleniti alias perspiciatis id nostrum reprehenderit aliquid
-          numquam odio sit. Assumenda, nemo aperiam vel cumque tempore totam
-          cupiditate rerum quidem? Alias corrupti aliquid maxime assumenda magni
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-          illo itaque a! Tempora, suscipit ratione. Possimus soluta sunt
-          accusantium eum? Accusamus fugit recusandae dolor earum? Sequi porro
-          amet quisquam quae recusandae est placeat, dicta rem id atque vero
-          veritatis dolore? Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Suscipit rem aliquid, pariatur molestiae dicta eveniet
-          similique, ullam cupiditate incidunt quidem quis doloremque et fugit
-          quos vel temporibus a ex? Assumenda debitis vitae sapiente! Magni
-          earum laboriosam illo veniam, necessitatibus quisquam ad
-          exercitationem soluta quis explicabo. Debitis, magnam, exercitationem
-          nam reprehenderit tempore temporibus vitae in aut at nemo dolor
-          laudantium nostrum corrupti rem molestias reiciendis et deserunt earum
-          quaerat aperiam? Deleniti tempora similique iusto natus totam
-          consequuntur incidunt, distinctio nulla neque quae accusamus ullam,
-          mollitia error impedit fugit autem exercitationem harum nihil soluta
-          nemo commodi, delectus eos voluptatem? Sit quod quo atque aspernatur
-          cupiditate nam totam porro delectus hic deleniti! Suscipit deleniti
-          corporis quasi non accusantium animi, ipsam porro autem. Ipsa,
-          blanditiis? Omnis perspiciatis, hic autem sapiente officia perferendis
-          praesentium mollitia rem quas minima, dolorum voluptatem itaque! Ea
-          voluptate asperiores facere dolorum, quas dicta dolor deleniti
-          architecto, eveniet accusantium blanditiis voluptas inventore. Odit
-          labore assumenda fugiat, accusantium animi nostrum ipsum iure iste
-          veritatis. Quos nam facilis magnam autem magni deserunt distinctio
-          voluptate laboriosam, aspernatur at voluptatibus vero itaque similique
-          accusantium, minus excepturi. Minima earum, consectetur eum officiis,
-          animi ratione laborum excepturi ex incidunt rerum qui sit expedita
-          natus recusandae nulla officia reprehenderit nam dolorem quaerat
-          ipsum. Voluptates, aliquam, tempora commodi magni officiis dolorum ea
-          ex maiores eius eligendi earum saepe cupiditate fuga. Odio quae,
-          recusandae aut cupiditate incidunt perspiciatis molestiae aspernatur
-          optio, aperiam error quod cum. Ea ab vero ad autem neque vitae eum
-          quasi repellat, corporis cupiditate dolorum beatae unde iure modi
-          labore vel, inventore placeat voluptates fugiat illum harum sapiente
-          voluptas consequuntur omnis. Debitis cumque animi laudantium
-          perspiciatis praesentium, dolores molestias, ut repudiandae quod autem
-          assumenda totam eum architecto voluptatum excepturi illo odio
-          recusandae reiciendis tempora, eos iusto magnam suscipit in. Illum
-          quaerat saepe consequatur quos ipsum maxime aliquid ex dolorem
-          consectetur nihil tempore aliquam quidem, quae perferendis qui. Ex,
-          quis harum non nulla optio maiores nobis in adipisci cumque laborum
-          impedit minima molestias doloremque illum dicta. Enim magni in
-          accusantium fuga optio mollitia minima consequatur! Architecto numquam
-          eaque rerum amet beatae dolorum vel. Autem officiis tempora assumenda
-          minus sit. Dolor ab optio necessitatibus atque culpa eius repellendus
-          voluptatibus! Veniam dolorum ducimus debitis fuga labore distinctio
-          consectetur consequatur officia neque vero aliquam ipsa, soluta, ipsam
-          quam, adipisci earum dolor! Excepturi voluptas ex fuga esse! Quidem
-          fuga culpa nisi distinctio tempore facilis, ad, assumenda voluptatibus
-          nihil deserunt sint omnis a!
-        </p>
+        <div className="inside-video">
+          <h1>Welcome to Awesome place</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+            rerum.
+          </p>
+          <div className="btn">
+            <button className="btn1">GET STARTED</button>
+            <button className="btn2">WATCH TRAILER</button>
+          </div>
+        </div>
+        <div className="outsite-video">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            illo itaque a! Tempora, suscipit ratione. Possimus soluta sunt
+            accusantium eum? Accusamus fugit recusandae dolor earum? Sequi porro
+            nihil deserunt sint omnis a! Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Reiciendis, quia nisi optio repudiandae nobis
+            similique rerum obcaecati laboriosam ex magni enim eveniet molestiae
+            doloremque fugit libero corporis ut nesciunt ab accusantium. Nemo
+            animi et quis perferendis dicta optio voluptas iusto voluptatum
+            debitis, ullam laborum dolor qui, aliquid enim quam quibusdam
+            impedit totam unde dolorum praesentium atque. Est amet possimus
+            architecto, adipisci fugiat facilis aut facere voluptas fugit quis
+            deserunt ad accusamus placeat recusandae laudantium pariatur
+            corrupti distinctio incidunt? Perferendis odio quibusdam nostrum
+            animi amet ipsam optio expedita autem voluptates et illo, quos,
+            eligendi sapiente aut eius! Id error cupiditate veniam itaque,
+            porro, amet tenetur enim ad officia ex corrupti nostrum? Dolorum
+            perspiciatis minima debitis quae odio possimus fugit ullam
+            consequatur. Eius esse dolore velit laudantium explicabo nobis quis
+            modi omnis ad. Ullam ex reprehenderit sint earum aspernatur neque
+            optio nisi eum provident veniam at voluptate inventore aperiam,
+            minus expedita magnam sed doloribus, id pariatur exercitationem
+            tenetur, dolor voluptatum! Tempora tempore quis delectus illo
+            quaerat natus expedita quam at vel sint explicabo consequuntur
+            similique quod sunt debitis repudiandae aliquid beatae omnis
+            asperiores adipisci saepe laudantium, atque, eaque minima! Culpa
+            eius repudiandae, est blanditiis quibusdam eum ad ipsum alias
+            commodi veritatis doloremque!
+          </p>
+        </div>
       </div>
       <button
         onClick={gotoWelcome}

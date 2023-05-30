@@ -26,7 +26,7 @@ function Header() {
           </ul>
         </nav>
       </div>
-      <div className="video">
+      <div className="video position-fixed">
         <video
           autoPlay
           loop
@@ -34,6 +34,7 @@ function Header() {
           src="https://www.shutterstock.com/shutterstock/videos/1090518119/preview/stock-footage-india-flag-flying-high-at-connaught-place-with-pride-in-blue-sky-india-flag-fluttering-indian.webm"
         ></video>
       </div>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="welcome" element={<Welcome />} />

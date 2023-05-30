@@ -4,9 +4,69 @@ body {
 .home {
   color: black;
   font-size: 3rem;
+  z-index: 1;
 }
 .video {
+  width: 100%;
   object-fit: fill;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.inside-video {
+  margin-top: 200px;
+  color: white;
+  margin-bottom: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inside-video h1 {
+  color: blue;
+  font-weight: 600;
+  font-size: 5rem;
+}
+.inside-video p {
+  color: blue;
+}
+/* outside video  */
+.outsite-video {
+  background-color: black;
+  color: white;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  /* padding: 20px; */
+  /* border: 2px solid green; */
+}
+.btn .btn1 {
+  /* border: 2px solid red; */
+
+  /* margin-right: 20px; */
+  padding: 10px;
+}
+.btn .btn2 {
+  /* border: 2px solid red; */
+  /* margin-right: 20px; */
+  padding: 10px;
+}
+.btn > * {
+  font-size: 2rem;
+  margin: 10px;
+  color: blue;
+  font-weight: 800;
+  /* background-color: blue; */
+  /* border: 2px solid red; */
+  box-shadow: 2px 2px inset blue;
+  border-radius: 10px;
+}
+.btn > *:hover {
+  color: white;
+  background-color: rgb(25, 25, 188);
 }
 nav {
   /* position: sticky; */
