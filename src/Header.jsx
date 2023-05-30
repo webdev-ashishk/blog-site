@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <>
-      <div className="nav-container sticky-top bg-dark">
+      <div className="nav-container sticky-top">
         <nav>
           <ul>
             <li>

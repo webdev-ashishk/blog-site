@@ -25,12 +25,14 @@ body {
   flex-direction: column;
 }
 .inside-video h1 {
-  color: blue;
-  font-weight: 600;
-  font-size: 5rem;
+  color: white;
+  font-weight: 900;
+  font-size: 1em;
 }
 .inside-video p {
-  color: blue;
+  color: orange;
+  font-size: 0.5em;
+  font-weight: 900;
 }
 /* outside video  */
 .outsite-video {
@@ -41,29 +43,20 @@ body {
   display: flex;
   justify-content: space-evenly;
   justify-content: center;
-  /* padding: 20px; */
-  /* border: 2px solid green; */
 }
 .btn .btn1 {
-  /* border: 2px solid red; */
-
-  /* margin-right: 20px; */
   padding: 10px;
 }
 .btn .btn2 {
-  /* border: 2px solid red; */
-  /* margin-right: 20px; */
   padding: 10px;
 }
 .btn > * {
-  font-size: 2rem;
+  font-size: 1rem;
   margin: 10px;
   background-color: blue;
   color: white;
   font-weight: 800;
-  /* background-color: blue; */
-  /* border: 2px solid red; */
-  box-shadow: 2px 2px inset blue;
+  box-shadow: 2px 2px inset white;
   border-radius: 10px;
 }
 .btn > *:hover {
@@ -71,11 +64,9 @@ body {
   background-color: rgb(25, 25, 188);
 }
 nav {
-  /* position: sticky; */
-  /* border: 5px solid red; */
+  background-color: gray;
   overflow: hidden;
   border: none;
-  /* background-color: rgb(30, 67, 76); */
 }
 
 nav > ul {
@@ -85,7 +76,7 @@ nav > ul {
   flex-wrap: wrap;
 }
 nav > ul > li {
-  font-size: 2rem;
+  font-size: 1rem;
   list-style-type: none;
   border: none;
 }
