@@ -4,12 +4,13 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #e2e2e2;
-  color: white;
+  /* background-color: #e2e2e2; */
+  color: black;
 }
 nav > NavLink {
   color: white;
 }
+
 video {
   object-fit: cover;
   width: 100%;
@@ -32,7 +33,7 @@ video {
 
 *::-webkit-scrollbar-track {
   border-radius: 5px;
-  background-color: gray;
+  background-color: black;
 }
 
 *::-webkit-scrollbar-track:hover {
