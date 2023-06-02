@@ -66,10 +66,10 @@ body {
   background-color: rgb(25, 25, 188);
 }
 .nav-container {
-  background-color: #e2e2e2;
+  background-color: #262626;
 }
 nav {
-  background-color: #e2e2e2;
+  background-color: #262626;
   overflow: hidden;
   border: none;
   /* border: 2px solid yellow; */
@@ -78,10 +78,18 @@ nav {
   /* justify-content: center; */
   margin: 0 400px;
 }
-.logo {
+nav .logo {
+  /* background-color: green; */
   /* border: 2px solid red; */
-  width: 150px;
-  mix-blend-mode: multiply;
+  width: 80px;
+  height: auto;
+  /* background-color: transparent; */
+  /* mix-blend-mode: multiply; */
+  background-blend-mode: multiply;
+  /* background-color: transparent; */
+  /* background-blend-mode: multiply; */
+  cursor: pointer;
+  /* filter: brightness(100%); */
 }
 
 nav > ul {
@@ -90,26 +98,45 @@ nav > ul {
   align-items: center;
   flex-wrap: wrap;
 }
+.nav-items {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  /* font-size: 2rem; */
+}
 nav > ul > li {
   font-size: 1rem;
   list-style-type: none;
   border: none;
+  margin: 10px;
 }
 nav > ul > li > a {
-  color: black;
+  color: white;
   font-weight: bold;
-  padding: 10px;
+  font-size: 1.2rem;
   text-decoration: none;
 }
-nav > ul > li > a:hover {
-  background-color: white;
-  color: blue;
-}
+
 .nav-active {
   color: white;
-  background-color: blue;
+  color: red;
 }
 .not-found {
   color: red;
   text-align: center;
+}
+
+/* styling head content  */
+.content-header {
+  width: 500px;
+  text-align: center;
+  border: 2px solid red;
+}
+.content-header:hover {
+  scale: 1.2;
+}
+.content-header-image {
+  width: 480px;
 }

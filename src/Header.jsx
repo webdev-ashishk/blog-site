@@ -22,11 +22,14 @@ function Header() {
         <nav>
           <img
             // src="https://www.onblastblog.com/wp-content/uploads/2017/08/blogger-logo-624x357.jpg"
-            src="https://as2.ftcdn.net/v2/jpg/00/83/88/57/1000_F_83885709_NMjDhh4t4mpV80TujUWrx7QKQWr446SH.jpg"
+            // src="https://as2.ftcdn.net/v2/jpg/00/83/88/57/1000_F_83885709_NMjDhh4t4mpV80TujUWrx7QKQWr446SH.jpg"
+            // src="https://e7.pngegg.com/pngimages/481/8/png-clipart-comparison-of-free-blog-hosting-services-computer-icons-blog-blogger-icon-blue-logo.png"
+            src="https://www.nicepng.com/png/detail/232-2326770_icon-blogger-logo-now-creative-group-logo.png"
+            // src="https://thumbs.dreamstime.com/z/maple-leaf-isolated-transparent-background-bright-red-autumn-realistic-leaf-vector-illustration-eps-maple-leaf-isolated-126072815.jpg"
             className="logo"
           />
 
-          <ul>
+          <ul className="nav-items">
             <li>
               <NavLink to="/" className={getClass} onClick={videoShow}>
                 Home
