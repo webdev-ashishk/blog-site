@@ -113,7 +113,7 @@ nav > ul > li {
   margin: 10px;
 }
 nav > ul > li > a {
-  color: white;
+  /* color: green; */
   font-weight: bold;
   font-size: 1.2rem;
   text-decoration: none;
@@ -121,7 +121,7 @@ nav > ul > li > a {
 
 .nav-active {
   color: white;
-  color: red;
+  /* color: red; */
 }
 .not-found {
   color: red;
@@ -153,4 +153,19 @@ nav > ul > li > a {
 .content-header-image {
   width: 390px;
   border-radius: 5% 5% 0 0;
+}
+
+#donate {
+  border: 2px solid green;
+  /* background-color: green; */
+  /* font-size: 2rem; */
+  border-radius: 20px;
+  padding: 5px;
+}
+#donate > * {
+  color: green;
+  font-size: 1.2rem;
+}
+#donate:hover {
+  border-color: white;
 }

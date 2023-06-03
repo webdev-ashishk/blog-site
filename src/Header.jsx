@@ -4,6 +4,9 @@ import Home from "./Home";
 import Welcome from "./Welcome";
 import WhatWeDo from "./WhatWeDo";
 import Photos from "./Photos";
+import JoinUS from "./JoinUS";
+import ContactUS from "./ContactUS";
+import Donate from "./Donate";
 function Header() {
   const getClass = ({ isActive }) => (isActive ? "nav-active" : null);
   <h1>App rendered!</h1>;
@@ -16,6 +19,7 @@ function Header() {
     const getVideo = document.getElementById("video");
     getVideo.style.display = "block";
   }
+
   return (
     <>
       <div className="nav-container sticky-top">
@@ -45,6 +49,21 @@ function Header() {
                 Photos
               </NavLink>
             </li>
+            <li>
+              <NavLink to="/JoinUS" className={getClass} onClick={videoHide}>
+                Join US
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/ContactUS" className={getClass} onClick={videoHide}>
+                Contact US
+              </NavLink>
+            </li>
+            <li id="donate">
+              <NavLink to="/Donate" onClick={videoHide} className={getClass}>
+                Donate
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </div>
@@ -66,6 +85,9 @@ function Header() {
         <Route path="welcome" element={<Welcome />} />
         <Route path="whatwedo" element={<WhatWeDo />} />
         <Route path="photos" element={<Photos />} />
+        <Route path="joinus" element={<JoinUS />} />
+        <Route path="contactus" element={<ContactUS />} />
+        <Route path="donate" element={<Donate />} />
         <Route
           path="*"
           element={<h1 className="not-found">404 Page not Found!!</h1>}
