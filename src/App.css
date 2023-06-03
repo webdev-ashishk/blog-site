@@ -78,18 +78,10 @@ nav {
   /* justify-content: center; */
   margin: 0 400px;
 }
-nav .logo {
-  /* background-color: green; */
+.logo {
   /* border: 2px solid red; */
-  width: 80px;
-  height: auto;
-  /* background-color: transparent; */
-  /* mix-blend-mode: multiply; */
-  background-blend-mode: multiply;
-  /* background-color: transparent; */
-  /* background-blend-mode: multiply; */
-  cursor: pointer;
-  /* filter: brightness(100%); */
+  margin-top: 35px;
+  /* padding: 50px; */
 }
 
 nav > ul {

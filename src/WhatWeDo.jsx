@@ -7,10 +7,11 @@ function WhatWeDo() {
           style={{
             color: "green",
             textAlign: "center",
-            fontSize: "8rem",
+            fontSize: "2rem",
+            textTransform: "uppercase",
           }}
         >
-          Catergories rendered-1
+          What we do for the Wold@!!!!!
         </h1>
       </div>
       <Outlet />
