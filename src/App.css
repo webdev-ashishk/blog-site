@@ -137,6 +137,7 @@ nav > ul > li > a {
   background-color: #e2e2e2;
   border-radius: 5%;
   object-fit: contain;
+  cursor: pointer;
 }
 .content-header-cart:hover {
   scale: 1.2;

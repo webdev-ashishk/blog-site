@@ -2,8 +2,8 @@ import { Routes, Route, NavLink } from "react-router-dom";
 
 import Home from "./Home";
 import Welcome from "./Welcome";
-import Categories from "./Categories";
-import Category from "./Category";
+import WhatWeDo from "./WhatWeDo";
+import Photos from "./Photos";
 function Header() {
   const getClass = ({ isActive }) => (isActive ? "nav-active" : null);
   <h1>App rendered!</h1>;
@@ -36,12 +36,13 @@ function Header() {
               </NavLink>
             </li>
             <li>
-              <NavLink
-                to="/categories"
-                className={getClass}
-                onClick={videoHide}
-              >
-                Categories
+              <NavLink to="/WhatWeDo" className={getClass} onClick={videoHide}>
+                WhatWeDo
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/Photos" className={getClass} onClick={videoHide}>
+                Photos
               </NavLink>
             </li>
           </ul>
@@ -56,15 +57,15 @@ function Header() {
           // moving earth
           // src="https://media.istockphoto.com/id/1459585081/video/digital-abstract-network-grid-over-the-earth-artificial-intelligence-neural-network-growing.mp4?s=mp4-640x640-is&k=20&c=-vKDwYFF-onrZVZJR9hdA1V89xkq1pqG6qbKL0s9quo="
           // src="https://media.istockphoto.com/id/891396730/video/female-uses-laptop-for-browsing-social-networks-site-scrolling-webpage-wall-over-the-shoulder.mp4?s=mp4-640x640-is&k=20&c=teVB0HxnB6BFllcfOD6ybm7-Jb6xqwjwcFal5XB-Tks="
+          // src="https://media.istockphoto.com/id/1023090642/video/aerial-above-the-forest-trees-towards-the-mountains.mp4?s=mp4-640x640-is&k=20&c=zFGo7aM9MXkSLQ2WALBMg-bJAMc8swhezUkxAoh-k94="
         ></video>
       </div>
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="welcome" element={<Welcome />} />
-        <Route path="categories" element={<Categories />}>
-          <Route path="category" element={<Category />} />
-        </Route>
+        <Route path="whatwedo" element={<WhatWeDo />} />
+        <Route path="photos" element={<Photos />} />
         <Route
           path="*"
           element={<h1 className="not-found">404 Page not Found!!</h1>}

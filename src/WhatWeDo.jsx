@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-function Categories() {
+function WhatWeDo() {
   return (
     <>
       <div className="container">
@@ -18,4 +18,4 @@ function Categories() {
   );
 }
 
-export default Categories;
+export default WhatWeDo;
