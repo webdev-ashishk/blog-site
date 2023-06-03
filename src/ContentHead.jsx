@@ -2,16 +2,52 @@ import React from "react";
 
 const ContentHeader = ({ url, txt }) => {
   return (
-    <>
+    <div className="content-header-cart">
       <img src={url} alt="" className="content-header-image" />
       <h3>{txt}</h3>
-    </>
+    </div>
   );
 };
 
 const ContentHead = () => {
   return (
-    <div className="content-header">
+    <div className="content-head-container">
+      <ContentHeader
+        url="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+        txt="ashish K"
+      />
+      <ContentHeader
+        url="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+        txt="ashish K"
+      />
+      <ContentHeader
+        url="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+        txt="ashish K"
+      />
+      <ContentHeader
+        url="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+        txt="ashish K"
+      />
+      <ContentHeader
+        url="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+        txt="ashish K"
+      />
+      <ContentHeader
+        url="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+        txt="ashish K"
+      />
+      <ContentHeader
+        url="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+        txt="ashish K"
+      />
+      <ContentHeader
+        url="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+        txt="ashish K"
+      />
+      <ContentHeader
+        url="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+        txt="ashish K"
+      />
       <ContentHeader
         url="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
         txt="ashish K"

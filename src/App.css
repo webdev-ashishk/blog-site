@@ -129,14 +129,27 @@ nav > ul > li > a {
 }
 
 /* styling head content  */
-.content-header {
-  width: 500px;
+.content-header-cart {
+  border: 2px solid green;
+  width: 395px;
+  margin: 50px;
   text-align: center;
-  border: 2px solid red;
+  background-color: #e2e2e2;
+  border-radius: 5%;
+  object-fit: contain;
 }
-.content-header:hover {
+.content-header-cart:hover {
   scale: 1.2;
 }
+.content-head-container {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
 .content-header-image {
-  width: 480px;
+  width: 390px;
+  border-radius: 5% 5% 0 0;
 }
