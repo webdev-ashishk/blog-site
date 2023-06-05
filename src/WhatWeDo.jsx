@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import BestTime from "./BestTime";
 function WhatWeDo() {
   return (
     <>
@@ -14,6 +15,7 @@ function WhatWeDo() {
           What we do for the Wold@!!!!!
         </h1>
       </div>
+      <BestTime />
       <Outlet />
     </>
   );

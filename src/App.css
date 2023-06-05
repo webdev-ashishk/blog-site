@@ -148,10 +148,10 @@ nav > ul > li > a {
 }
 
 #donate {
-  border: 2px solid green;
+  border: 2px solid red;
   /* background-color: green; */
   /* font-size: 2rem; */
-  border-radius: 20px;
+  border-radius: 8px;
   padding: 5px;
 }
 #donate > * {
@@ -160,4 +160,31 @@ nav > ul > li > a {
 }
 #donate:hover {
   border-color: white;
+}
+
+/* styleing BestTime file  */
+.besttime {
+  min-height: 70vh;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.besttime::before {
+  content: " ";
+  background-image: url(https://ak8.picdn.net/shutterstock/videos/8940328/thumb/11.jpg?ip=x480);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.23;
+}
+h1 {
+  font-size: 3rem;
+  color: white;
 }
