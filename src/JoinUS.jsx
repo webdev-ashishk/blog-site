@@ -3,7 +3,8 @@ import React from "react";
 const JoinUS = () => {
   return (
     <>
-      <h1>join us rendered!!!!!!!</h1>
+      <h3>Join us rendered!!!!!!!</h3>
+      <p>This is part of JoinUS Community</p>
     </>
   );
 };

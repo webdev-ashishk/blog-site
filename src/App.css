@@ -78,12 +78,12 @@ nav {
   /* justify-content: center; */
   margin: 0 400px;
 }
-.logo {
-  /* border: 2px solid red; */
-  margin-top: 35px;
-  /* padding: 50px; */
-}
 
+.logologo {
+  /* border: 2px solid red; */
+  margin-top: 40px;
+  scale: 1.1;
+}
 nav > ul {
   display: flex;
   justify-content: center;
@@ -159,32 +159,73 @@ nav > ul > li > a {
   font-size: 1.2rem;
 }
 #donate:hover {
-  border-color: white;
+  border: 3px solid white;
+  /* border-color: white; */
+  transform: translateY(-3px);
+  box-shadow: 0px 10px 20px 2px White (0, 0, 0, 0.25);
 }
 
 /* styleing BestTime file  */
-.besttime {
-  min-height: 70vh;
-  border: 2px solid red;
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* object-fit: cover; */
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-weight: 900;
+  text-shadow: 0 1px #8da1ff, -1px 0 #c0cbff, -1px 2px #8da1ff, -2px 1px #c0cbff,
+    -2px 3px #8da1ff, -3px 2px #c0cbff, -3px 4px #8da1ff, -4px 3px #c0cbff,
+    -4px 5px #8da1ff, -5px 4px #c0cbff, -5px 6px #8da1ff, -6px 5px #c0cbff,
+    -6px 7px #8da1ff, -7px 6px #c0cbff, -7px 8px #8da1ff, -8px 7px #c0cbff;
+}
+span {
+  color: green;
+}
+
+/* style a btn  */
+#btn {
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  font-size: 0.4em;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  background-color: green;
+  margin: 10px;
+  box-shadow: 2px 2px inset white;
+}
+#btn:hover {
+  /* border: 2px solid green; */
+  background-color: blue;
+  color: white;
+}
+
+/* style footer  */
+footer {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  flex-direction: column;
+  margin-top: 1px;
+  /* border: 2px solid red; */
 }
-.besttime::before {
-  content: " ";
-  background-image: url(https://ak8.picdn.net/shutterstock/videos/8940328/thumb/11.jpg?ip=x480);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0.23;
-}
-h1 {
-  font-size: 3rem;
+.footer-top {
+  padding: 100px;
+  background-color: #26272b;
   color: white;
+  font-size: 1.2em;
+}
+.footer-middle {
+  background-color: green;
+  width: 100%;
+  text-align: center;
 }
