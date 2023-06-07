@@ -229,3 +229,111 @@ footer {
   width: 100%;
   text-align: center;
 }
+
+/* style textOnImage  */
+.parent {
+  min-height: 40vh;
+  /* border: 2px solid red; */
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  /* opacity: 0.5; */
+}
+.parent::before {
+  content: "";
+  /* background-image: url("https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg"); */
+  /* background-image: url("https://www.ulektznews.com/wp-content/uploads/2021/09/DU-Makes-It-Compulsory-For-All-Students-To-Plant-Trees-From-This-Session.png"); */
+  background-image: url("https://www.czechuniversities.com/uploads/2020/02/290.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.parent-para {
+  font-size: 5rem;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  z-index: 1;
+  backdrop-filter: sepia(50%);
+  border-radius: 10px;
+}
+:root {
+  --hs: 225, 100%;
+  --paper: hsl(var(--hs), 25%);
+  --highlight: hsl(var(--hs), 45%);
+  --shadow: hsl(var(--hs), 15%);
+}
+
+h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: clamp(8rem, 23vw + 1rem, 20rem);
+  letter-spacing: 0.1em;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "text";
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  background-image: linear-gradient(305deg, tomato, gold, cyan);
+  margin: 0;
+
+  & > *,
+  &::after {
+    grid-area: text;
+  }
+
+  &::after {
+    content: attr(data-text);
+    color: var(--paper);
+    transform: translate(0.1em, 0.1em);
+    filter: drop-shadow(0.015em 0.015em 0.025em var(--shadow));
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(var(--highlight), var(--paper));
+  }
+}
+
+/* styling component container  */
+.cmpContainer {
+  /* min-height: 100vh; */
+  border: 8px solid green;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.containerr {
+  border: 2px solid black;
+  width: 360px;
+  margin: 20px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e2e2e2;
+  border-radius: 10px;
+}
+.containerr:hover {
+  scale: 1.01;
+  box-shadow: 10px 10px 10px green;
+  cursor: pointer;
+}
+
+.cImage {
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  object-fit: cover;
+  width: 360px;
+  height: 380px;
+}

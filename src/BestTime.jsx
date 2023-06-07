@@ -11,6 +11,7 @@ const BestTime = () => {
   }
   return (
     <>
+      <hr />
       <div className="container">
         <img
           src="https://t3.ftcdn.net/jpg/04/32/80/52/360_F_432805244_DBdoUgXB7e6LKe1xO3paAlTx3NLYnNPq.jpg"
