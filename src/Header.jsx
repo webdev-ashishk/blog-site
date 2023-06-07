@@ -7,7 +7,7 @@ import Photos from "./Photos";
 import JoinUS from "./JoinUS";
 import ContactUS from "./ContactUS";
 import Donate from "./Donate";
-import Membership from "./Member";
+import Member from "./Member";
 function Header() {
   const getClass = ({ isActive }) => (isActive ? "nav-active" : null);
   <h1>App rendered!</h1>;
@@ -117,9 +117,8 @@ function Header() {
         <Route path="welcome" element={<Welcome />} />
         <Route path="whatwedo" element={<WhatWeDo />} />
         <Route path="photos" element={<Photos />} />
-        <Route path="joinus" element={<JoinUS />}>
-          <Route path="membership" element={<Membership />} />
-        </Route>
+        <Route path="joinus" element={<JoinUS />} />
+        <Route path="member" element={<Member />} />
         <Route path="contactus" element={<ContactUS />} />
         <Route path="donate" element={<Donate />} />
 
