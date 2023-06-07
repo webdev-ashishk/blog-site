@@ -305,7 +305,7 @@ h1 {
 /* styling component container  */
 .cmpContainer {
   /* min-height: 100vh; */
-  border: 8px solid green;
+  /* border: 8px solid green; */
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -316,7 +316,7 @@ h1 {
   border: 2px solid black;
   width: 360px;
   margin: 20px;
-  height: 450px;
+  height: 490px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -336,4 +336,66 @@ h1 {
   object-fit: cover;
   width: 360px;
   height: 380px;
+  translate: 10;
+}
+
+#bestTimeBackground {
+  background-color: #e2e2e2;
+}
+
+/* style photo conmponent  */
+.photo-container {
+  /* border: 6px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.photo-image {
+  border: 1px solid red;
+  border-radius: 10px;
+  width: 500px;
+  /* height: 400px; */
+  margin: 20px;
+}
+
+/* style join us 
+ */
+.joinContainer {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.join-cart {
+  /* border: 8px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  width: 500px;
+}
+.join-image {
+  width: 480px;
+}
+.join-image:hover {
+  cursor: pointer;
+  scale: 1.01;
+  margin: 2px;
+}
+.jbtn {
+  /* border: 2px solid red; */
+  /* font-style: bold; */
+  font-size: 1.3rem;
+  padding: 5px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px;
+}
+.jbtn:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid green;
+  box-shadow: 8px 8px 8px red;
 }

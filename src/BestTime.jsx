@@ -10,7 +10,7 @@ const BestTime = () => {
     navigate("/JoinUS");
   }
   return (
-    <>
+    <div id="bestTimeBackground">
       <hr />
       <div className="container">
         <img
@@ -33,7 +33,7 @@ const BestTime = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
