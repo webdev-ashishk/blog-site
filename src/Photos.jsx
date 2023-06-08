@@ -12,6 +12,11 @@ function PhotoCart({ image }) {
 const Photos = () => {
   return (
     <>
+      <div className="parent">
+        <h1 className="parent-para">
+          <span>Gallery</span>
+        </h1>
+      </div>
       <div className="photo-container">
         <PhotoCart image="https://fastread.in/images/uploads/earth-day-plant-a-tree.jpg" />
         <PhotoCart image="https://vidhyashram.edu.in/wp-content/uploads/2018/09/IMG_7064.jpg" />
